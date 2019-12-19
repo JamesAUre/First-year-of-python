@@ -1,0 +1,15 @@
+I'm
+writing
+this
+to
+test
+if
+the
+hashtable
+will
+correctly
+insert
+this
+into
+the
+hashtable
