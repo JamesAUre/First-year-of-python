@@ -33,10 +33,10 @@ def checksum(num1, num2):
 
 # iterates through the list to print in readible format
 def printlist(listpairs):
-    print(“Valid pairs are: “)
+    print("Valid pairs are: ")
 
     for i in range(len(listpairs)):
-        print(listpairs[i][0], “ and “, listpairs[i][1])
+        print(listpairs[i][0], " and ", listpairs[i][1])
 
    
 # creates a list of valid pairs
