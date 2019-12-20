@@ -19,14 +19,14 @@ def finding_pairs(list):
 
 # checks to see if products are valid
 def checkproduct(num1, num2):
-    if (num1 * num2) % 2 == 1:
+    if (num1 * num2) % 2 == 0:
         return True
     return False
 
 
 # checks to see if sums are valid
 def checksum(num1, num2):
-    if (num1 + num2) % 2 == 0:
+    if (num1 + num2) % 2 == 1:
         return True
     return False
 
