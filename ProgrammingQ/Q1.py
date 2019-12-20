@@ -30,5 +30,17 @@ def checksum(num1, num2):
         return True
     return False
 
-# runs functions and prints result
-print(finding_pairs(reading()))
+
+# iterates through the list to print in readible format
+def printlist(listpairs):
+    print(“Valid pairs are: “)
+
+    for i in range(len(listpairs)):
+        print(listpairs[i][0], “ and “, listpairs[i][1])
+
+   
+# creates a list of valid pairs
+listpairs = finding_pairs(reading())
+
+# prints a formatted display of the valid pairs
+printlist(listpairs)
